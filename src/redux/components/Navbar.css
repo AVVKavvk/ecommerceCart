@@ -1,0 +1,31 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: rgb(61, 235, 160);
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+    /* border: 2px solid  grey; */
+}
+.qq{
+    position: relative;
+
+}
+.qq .p{
+    position: absolute;
+    top: -1.5rem;
+    right: -1rem;
+    width: 1.6rem;
+    height: 1.6rem;
+    text-align: center;
+    border-radius: 50%;
+    /* background-color: rgb(238, 231, 231); */
+    color: red;
+}

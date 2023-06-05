@@ -1,0 +1,35 @@
+img{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+.productimg{
+    border: 2px solid grey;
+    border-radius: 1rem;
+}
+  h3{
+color: darkolivegreen;
+margin: .1rem;
+}
+.info{
+    padding: .4rem;
+}
+.btn{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: .1%; */
+}
+.cartinfo{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.total{
+    font-size: 1.5rem;
+    padding: .6rem;
+    color: darkgrey;
+
+}

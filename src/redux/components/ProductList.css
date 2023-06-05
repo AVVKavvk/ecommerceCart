@@ -1,0 +1,34 @@
+.productlist{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:.4rem;
+    margin: 1rem;
+}
+.w{
+    color: chocolate;
+}
+.last{
+    display: grid;
+    grid-template-columns: 29% 67%;
+    gap: 2%;
+}
+.last-r{
+    box-shadow: 2px 2px 2px 2px grey;
+    padding: 1rem;
+}
+.last-l{
+    box-shadow: 2px 2px 2px 2px grey;
+    padding: 1rem;
+}
+@media screen and (max-width:500px) {
+   .productlist{
+
+       grid-template-columns: 98%;
+   }
+   .last{
+   
+    grid-template-columns: 98%;
+    gap: 3%;
+}
+
+}
